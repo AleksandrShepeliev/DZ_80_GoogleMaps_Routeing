@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Google-Maps-iOS-Utils (1.1.2):
+    - Google-Maps-iOS-Utils/Clustering (= 1.1.2)
+    - Google-Maps-iOS-Utils/QuadTree (= 1.1.2)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (1.1.2):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (1.1.2):
+    - GoogleMaps
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - JSONModel (1.7.0)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Google-Maps-iOS-Utils
+  - JSONModel
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Google-Maps-iOS-Utils: 4f308c9bf3b0da228aff1435a92f9fc2e13a28ff
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: 96556b85c9935e7e540875dd7b8ac0898886b6e3
+
+COCOAPODS: 1.0.1

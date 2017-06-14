@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1459A539CE3263DC08091678 /* libPods-DZ_80_GoogleMaps_Routeing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 120437F5C7D1EDF2629ECD5C /* libPods-DZ_80_GoogleMaps_Routeing.a */; };
+		52F4B8A61EF128C400BDB55E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4B8A51EF128C400BDB55E /* main.m */; };
+		52F4B8A91EF128C400BDB55E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4B8A81EF128C400BDB55E /* AppDelegate.m */; };
+		52F4B8AC1EF128C400BDB55E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4B8AB1EF128C400BDB55E /* ViewController.m */; };
+		52F4B8AF1EF128C400BDB55E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8AD1EF128C400BDB55E /* Main.storyboard */; };
+		52F4B8B11EF128C400BDB55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8B01EF128C400BDB55E /* Assets.xcassets */; };
+		52F4B8B41EF128C400BDB55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8B21EF128C400BDB55E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05BD52C27B0D85CC5595F053 /* Pods-DZ_80_GoogleMaps_Routeing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ_80_GoogleMaps_Routeing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZ_80_GoogleMaps_Routeing/Pods-DZ_80_GoogleMaps_Routeing.debug.xcconfig"; sourceTree = "<group>"; };
+		120437F5C7D1EDF2629ECD5C /* libPods-DZ_80_GoogleMaps_Routeing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZ_80_GoogleMaps_Routeing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F4B8A11EF128C400BDB55E /* DZ_80_GoogleMaps_Routeing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZ_80_GoogleMaps_Routeing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F4B8A51EF128C400BDB55E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52F4B8A71EF128C400BDB55E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52F4B8A81EF128C400BDB55E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52F4B8AA1EF128C400BDB55E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52F4B8AB1EF128C400BDB55E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52F4B8AE1EF128C400BDB55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52F4B8B01EF128C400BDB55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52F4B8B31EF128C400BDB55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52F4B8B51EF128C400BDB55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F785095F993AC8B76B39A1 /* Pods-DZ_80_GoogleMaps_Routeing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ_80_GoogleMaps_Routeing.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZ_80_GoogleMaps_Routeing/Pods-DZ_80_GoogleMaps_Routeing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52F4B89E1EF128C400BDB55E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1459A539CE3263DC08091678 /* libPods-DZ_80_GoogleMaps_Routeing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F4B8981EF128C400BDB55E = {
+			isa = PBXGroup;
+			children = (
+				52F4B8A31EF128C400BDB55E /* DZ_80_GoogleMaps_Routeing */,
+				52F4B8A21EF128C400BDB55E /* Products */,
+				AC71987C149208274DC48965 /* Pods */,
+				F9CD62AC62D345CA90A11DB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52F4B8A21EF128C400BDB55E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F4B8A11EF128C400BDB55E /* DZ_80_GoogleMaps_Routeing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F4B8A31EF128C400BDB55E /* DZ_80_GoogleMaps_Routeing */ = {
+			isa = PBXGroup;
+			children = (
+				52F4B8A71EF128C400BDB55E /* AppDelegate.h */,
+				52F4B8A81EF128C400BDB55E /* AppDelegate.m */,
+				52F4B8AA1EF128C400BDB55E /* ViewController.h */,
+				52F4B8AB1EF128C400BDB55E /* ViewController.m */,
+				52F4B8AD1EF128C400BDB55E /* Main.storyboard */,
+				52F4B8B01EF128C400BDB55E /* Assets.xcassets */,
+				52F4B8B21EF128C400BDB55E /* LaunchScreen.storyboard */,
+				52F4B8B51EF128C400BDB55E /* Info.plist */,
+				52F4B8A41EF128C400BDB55E /* Supporting Files */,
+			);
+			path = DZ_80_GoogleMaps_Routeing;
+			sourceTree = "<group>";
+		};
+		52F4B8A41EF128C400BDB55E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52F4B8A51EF128C400BDB55E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC71987C149208274DC48965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05BD52C27B0D85CC5595F053 /* Pods-DZ_80_GoogleMaps_Routeing.debug.xcconfig */,
+				59F785095F993AC8B76B39A1 /* Pods-DZ_80_GoogleMaps_Routeing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9CD62AC62D345CA90A11DB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				120437F5C7D1EDF2629ECD5C /* libPods-DZ_80_GoogleMaps_Routeing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52F4B8A01EF128C400BDB55E /* DZ_80_GoogleMaps_Routeing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F4B8B81EF128C400BDB55E /* Build configuration list for PBXNativeTarget "DZ_80_GoogleMaps_Routeing" */;
+			buildPhases = (
+				5C23B6DB4BCB685D18F47000 /* [CP] Check Pods Manifest.lock */,
+				52F4B89D1EF128C400BDB55E /* Sources */,
+				52F4B89E1EF128C400BDB55E /* Frameworks */,
+				52F4B89F1EF128C400BDB55E /* Resources */,
+				ACC40060EEB64CA0AFEC29DF /* [CP] Embed Pods Frameworks */,
+				5F890EF4BDA080C6B3E61312 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZ_80_GoogleMaps_Routeing;
+			productName = DZ_80_GoogleMaps_Routeing;
+			productReference = 52F4B8A11EF128C400BDB55E /* DZ_80_GoogleMaps_Routeing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52F4B8991EF128C400BDB55E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shepeliev Aleksandr";
+				TargetAttributes = {
+					52F4B8A01EF128C400BDB55E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52F4B89C1EF128C400BDB55E /* Build configuration list for PBXProject "DZ_80_GoogleMaps_Routeing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52F4B8981EF128C400BDB55E;
+			productRefGroup = 52F4B8A21EF128C400BDB55E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F4B8A01EF128C400BDB55E /* DZ_80_GoogleMaps_Routeing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F4B89F1EF128C400BDB55E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F4B8B41EF128C400BDB55E /* LaunchScreen.storyboard in Resources */,
+				52F4B8B11EF128C400BDB55E /* Assets.xcassets in Resources */,
+				52F4B8AF1EF128C400BDB55E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C23B6DB4BCB685D18F47000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F890EF4BDA080C6B3E61312 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DZ_80_GoogleMaps_Routeing/Pods-DZ_80_GoogleMaps_Routeing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC40060EEB64CA0AFEC29DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DZ_80_GoogleMaps_Routeing/Pods-DZ_80_GoogleMaps_Routeing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52F4B89D1EF128C400BDB55E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F4B8AC1EF128C400BDB55E /* ViewController.m in Sources */,
+				52F4B8A91EF128C400BDB55E /* AppDelegate.m in Sources */,
+				52F4B8A61EF128C400BDB55E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52F4B8AD1EF128C400BDB55E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F4B8AE1EF128C400BDB55E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52F4B8B21EF128C400BDB55E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F4B8B31EF128C400BDB55E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52F4B8B61EF128C400BDB55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52F4B8B71EF128C400BDB55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52F4B8B91EF128C400BDB55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BD52C27B0D85CC5595F053 /* Pods-DZ_80_GoogleMaps_Routeing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZ_80_GoogleMaps_Routeing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sheip.DZ-80-GoogleMaps-Routeing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52F4B8BA1EF128C400BDB55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F785095F993AC8B76B39A1 /* Pods-DZ_80_GoogleMaps_Routeing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZ_80_GoogleMaps_Routeing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sheip.DZ-80-GoogleMaps-Routeing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52F4B89C1EF128C400BDB55E /* Build configuration list for PBXProject "DZ_80_GoogleMaps_Routeing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F4B8B61EF128C400BDB55E /* Debug */,
+				52F4B8B71EF128C400BDB55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F4B8B81EF128C400BDB55E /* Build configuration list for PBXNativeTarget "DZ_80_GoogleMaps_Routeing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F4B8B91EF128C400BDB55E /* Debug */,
+				52F4B8BA1EF128C400BDB55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52F4B8991EF128C400BDB55E /* Project object */;
+}
