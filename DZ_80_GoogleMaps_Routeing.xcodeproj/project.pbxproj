@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1459A539CE3263DC08091678 /* libPods-DZ_80_GoogleMaps_Routeing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 120437F5C7D1EDF2629ECD5C /* libPods-DZ_80_GoogleMaps_Routeing.a */; };
+		52F406A21EF4011400B2A6B7 /* Fetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F406A11EF4011400B2A6B7 /* Fetcher.m */; };
 		52F4B8A61EF128C400BDB55E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4B8A51EF128C400BDB55E /* main.m */; };
 		52F4B8A91EF128C400BDB55E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4B8A81EF128C400BDB55E /* AppDelegate.m */; };
 		52F4B8AC1EF128C400BDB55E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4B8AB1EF128C400BDB55E /* ViewController.m */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		05BD52C27B0D85CC5595F053 /* Pods-DZ_80_GoogleMaps_Routeing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ_80_GoogleMaps_Routeing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZ_80_GoogleMaps_Routeing/Pods-DZ_80_GoogleMaps_Routeing.debug.xcconfig"; sourceTree = "<group>"; };
 		120437F5C7D1EDF2629ECD5C /* libPods-DZ_80_GoogleMaps_Routeing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZ_80_GoogleMaps_Routeing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F406A01EF4011400B2A6B7 /* Fetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fetcher.h; sourceTree = "<group>"; };
+		52F406A11EF4011400B2A6B7 /* Fetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fetcher.m; sourceTree = "<group>"; };
 		52F4B8A11EF128C400BDB55E /* DZ_80_GoogleMaps_Routeing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZ_80_GoogleMaps_Routeing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F4B8A51EF128C400BDB55E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52F4B8A71EF128C400BDB55E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 				52F4B8A81EF128C400BDB55E /* AppDelegate.m */,
 				52F4B8AA1EF128C400BDB55E /* ViewController.h */,
 				52F4B8AB1EF128C400BDB55E /* ViewController.m */,
+				52F406A01EF4011400B2A6B7 /* Fetcher.h */,
+				52F406A11EF4011400B2A6B7 /* Fetcher.m */,
 				52F4B8BB1EF148BE00BDB55E /* SettingsView.h */,
 				52F4B8BC1EF148BE00BDB55E /* SettingsView.m */,
 				52F4B8BE1EF148D800BDB55E /* SettingsView.xib */,
@@ -237,6 +242,7 @@
 				52F4B8AC1EF128C400BDB55E /* ViewController.m in Sources */,
 				52F4B8BD1EF148BE00BDB55E /* SettingsView.m in Sources */,
 				52F4B8A91EF128C400BDB55E /* AppDelegate.m in Sources */,
+				52F406A21EF4011400B2A6B7 /* Fetcher.m in Sources */,
 				52F4B8A61EF128C400BDB55E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

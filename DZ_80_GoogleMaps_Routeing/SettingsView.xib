@@ -12,7 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SettingsView">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="495"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Вветите откуда стартовать" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hGF-0m-y2k">
@@ -22,13 +22,13 @@
                     <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next"/>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите пункт назначения" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LH9-em-572">
-                    <rect key="frame" x="16" y="101" width="343" height="30"/>
+                    <rect key="frame" x="16" y="306" width="343" height="30"/>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTt-Jc-upE">
-                    <rect key="frame" x="115" y="150" width="145" height="30"/>
+                    <rect key="frame" x="115" y="445" width="145" height="30"/>
                     <state key="normal" title="Построить маршрут"/>
                     <connections>
                         <action selector="buildARouteButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="fS7-hg-kP0"/>
@@ -45,40 +45,59 @@
                     </connections>
                 </button>
                 <button opaque="NO" alpha="0.5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqU-AG-Jl5">
-                    <rect key="frame" x="329" y="72" width="30" height="24"/>
+                    <rect key="frame" x="329" y="277" width="30" height="24"/>
                     <state key="normal" backgroundImage="change"/>
                     <connections>
                         <action selector="changeRolesButttonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="PkF-YN-dGZ"/>
                     </connections>
                 </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="StartRoute" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="l5S-fw-5jw">
+                    <rect key="frame" x="16" y="69" width="343" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="qqh-QU-4Zd"/>
+                    </constraints>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="FinishRoute" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="b7v-UN-rdW">
+                    <rect key="frame" x="16" y="344" width="343" height="93"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
             </subviews>
             <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="AqU-AG-Jl5" firstAttribute="top" secondItem="Lgx-0t-Zpg" secondAttribute="bottom" constant="4" id="60d-m1-ZgV"/>
+                <constraint firstItem="GTt-Jc-upE" firstAttribute="top" secondItem="b7v-UN-rdW" secondAttribute="bottom" constant="8" id="4SZ-Wb-vyG"/>
                 <constraint firstItem="LH9-em-572" firstAttribute="trailing" secondItem="hGF-0m-y2k" secondAttribute="trailing" id="6hE-nZ-CIA"/>
                 <constraint firstItem="AqU-AG-Jl5" firstAttribute="width" secondItem="Lgx-0t-Zpg" secondAttribute="width" id="85T-2U-FSV"/>
                 <constraint firstItem="LH9-em-572" firstAttribute="top" secondItem="AqU-AG-Jl5" secondAttribute="bottom" constant="5" id="8d0-Bg-5yJ"/>
                 <constraint firstAttribute="trailing" secondItem="hGF-0m-y2k" secondAttribute="trailing" constant="16" id="8u8-0C-tMp"/>
                 <constraint firstItem="hGF-0m-y2k" firstAttribute="height" secondItem="Lgx-0t-Zpg" secondAttribute="width" id="9fB-DD-e6A"/>
+                <constraint firstItem="AqU-AG-Jl5" firstAttribute="top" secondItem="l5S-fw-5jw" secondAttribute="bottom" constant="8" id="BPl-Ng-NDU"/>
                 <constraint firstItem="Lgx-0t-Zpg" firstAttribute="trailing" secondItem="hGF-0m-y2k" secondAttribute="trailing" id="EZD-mG-Uui"/>
                 <constraint firstItem="LH9-em-572" firstAttribute="leading" secondItem="hGF-0m-y2k" secondAttribute="leading" id="KY3-tb-kOF"/>
                 <constraint firstItem="AqU-AG-Jl5" firstAttribute="trailing" secondItem="LH9-em-572" secondAttribute="trailing" id="Lcg-1o-2iG"/>
-                <constraint firstItem="AqU-AG-Jl5" firstAttribute="top" secondItem="Lgx-0t-Zpg" secondAttribute="bottom" constant="4" id="MF9-IY-XH3"/>
                 <constraint firstItem="GTt-Jc-upE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Mis-py-2L8"/>
                 <constraint firstItem="hGF-0m-y2k" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="38" id="U90-dT-VSL"/>
+                <constraint firstItem="l5S-fw-5jw" firstAttribute="top" secondItem="Lgx-0t-Zpg" secondAttribute="bottom" constant="1" id="bM6-XR-ggk"/>
                 <constraint firstAttribute="bottom" secondItem="GTt-Jc-upE" secondAttribute="bottom" constant="20" id="bUQ-U9-NTY"/>
+                <constraint firstItem="l5S-fw-5jw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="cnI-1M-hbS"/>
                 <constraint firstItem="Lgx-0t-Zpg" firstAttribute="height" secondItem="hGF-0m-y2k" secondAttribute="height" id="eFN-6r-J04"/>
+                <constraint firstItem="b7v-UN-rdW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="j7t-d4-qAM"/>
                 <constraint firstItem="hGF-0m-y2k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="lpK-Y3-7pG"/>
+                <constraint firstItem="b7v-UN-rdW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mdx-Uy-Xjp"/>
+                <constraint firstItem="l5S-fw-5jw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="rWw-EQ-OFl"/>
+                <constraint firstItem="b7v-UN-rdW" firstAttribute="top" secondItem="LH9-em-572" secondAttribute="bottom" constant="8" id="srx-yi-515"/>
                 <constraint firstItem="Lgx-0t-Zpg" firstAttribute="centerY" secondItem="hGF-0m-y2k" secondAttribute="centerY" id="vEN-iE-kHQ"/>
-                <constraint firstItem="LH9-em-572" firstAttribute="top" secondItem="hGF-0m-y2k" secondAttribute="bottom" constant="33" id="vud-An-YUb"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="ibFinishPointField" destination="LH9-em-572" id="J3s-iC-HUa"/>
+                <outlet property="ibFinishTableView" destination="b7v-UN-rdW" id="SUm-Cc-KEl"/>
                 <outlet property="ibMyLOcationButton" destination="Lgx-0t-Zpg" id="RgD-FJ-X2N"/>
                 <outlet property="ibStartPointField" destination="hGF-0m-y2k" id="F2C-Ck-o6U"/>
+                <outlet property="ibStartTableView" destination="l5S-fw-5jw" id="Iss-CK-iGw"/>
+                <outlet property="ibTableViewHeightConstraint" destination="qqh-QU-4Zd" id="PMt-mR-GmL"/>
             </connections>
-            <point key="canvasLocation" x="33.5" y="55"/>
+            <point key="canvasLocation" x="33.5" y="102.5"/>
         </view>
     </objects>
     <resources>

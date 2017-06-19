@@ -10,4 +10,11 @@
 
 @interface Fetcher : NSObject
 
+@property (nonatomic, strong) NSMutableArray *fullAddreses;
+
++ (instancetype)sharedInstans;
+
+- (void)getHelpForGeocodeAddress:(NSString *)address;
+- (void)buildARouteFromPoint:(NSString *)startAddressPoint toPoint:(NSString *)finishAddressPoint;
+
 @end
