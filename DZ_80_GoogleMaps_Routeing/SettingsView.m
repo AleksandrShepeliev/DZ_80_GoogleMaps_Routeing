@@ -8,14 +8,50 @@
 
 #import "SettingsView.h"
 
+@interface SettingsView ()  {
+    
+   
+}
+
+@end
+
 @implementation SettingsView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
+- (UITextField *)ibStartPointField {
+    _ibStartPointField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    return _ibStartPointField;
+}
+
+- (UITextField *)ibFinishPointField {
+    _ibFinishPointField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    return _ibFinishPointField;
+}
+
 - (void)drawRect:(CGRect)rect {
     // Drawing code
 }
-*/
+
+#pragma mark - Actions
+
+- (IBAction)buildARouteButtonClicked:(UIButton *)sender {
+    
+    if ([self.ibStartPointField isEditing]) {
+        [self.ibStartPointField resignFirstResponder];
+    } else {
+        [self.ibFinishPointField resignFirstResponder];
+    }
+    
+    _RouteButtonBlock(self);
+}
+
+- (IBAction)myLocationButtonClicked:(UIButton *)sender {
+    
+    NSLog(@"myLocationButtonClicked");
+}
+
+- (IBAction)changeRolesButttonClicked:(id)sender {
+    
+    NSLog(@"changeRolesButttonClicked");
+}
 
 @end

@@ -14,6 +14,8 @@
 		52F4B8AF1EF128C400BDB55E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8AD1EF128C400BDB55E /* Main.storyboard */; };
 		52F4B8B11EF128C400BDB55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8B01EF128C400BDB55E /* Assets.xcassets */; };
 		52F4B8B41EF128C400BDB55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8B21EF128C400BDB55E /* LaunchScreen.storyboard */; };
+		52F4B8BD1EF148BE00BDB55E /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4B8BC1EF148BE00BDB55E /* SettingsView.m */; };
+		52F4B8BF1EF148D800BDB55E /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8BE1EF148D800BDB55E /* SettingsView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		52F4B8B01EF128C400BDB55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F4B8B31EF128C400BDB55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52F4B8B51EF128C400BDB55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F4B8BB1EF148BE00BDB55E /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		52F4B8BC1EF148BE00BDB55E /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+		52F4B8BE1EF148D800BDB55E /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
 		59F785095F993AC8B76B39A1 /* Pods-DZ_80_GoogleMaps_Routeing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ_80_GoogleMaps_Routeing.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZ_80_GoogleMaps_Routeing/Pods-DZ_80_GoogleMaps_Routeing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +74,9 @@
 				52F4B8A81EF128C400BDB55E /* AppDelegate.m */,
 				52F4B8AA1EF128C400BDB55E /* ViewController.h */,
 				52F4B8AB1EF128C400BDB55E /* ViewController.m */,
+				52F4B8BB1EF148BE00BDB55E /* SettingsView.h */,
+				52F4B8BC1EF148BE00BDB55E /* SettingsView.m */,
+				52F4B8BE1EF148D800BDB55E /* SettingsView.xib */,
 				52F4B8AD1EF128C400BDB55E /* Main.storyboard */,
 				52F4B8B01EF128C400BDB55E /* Assets.xcassets */,
 				52F4B8B21EF128C400BDB55E /* LaunchScreen.storyboard */,
@@ -165,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F4B8B41EF128C400BDB55E /* LaunchScreen.storyboard in Resources */,
+				52F4B8BF1EF148D800BDB55E /* SettingsView.xib in Resources */,
 				52F4B8B11EF128C400BDB55E /* Assets.xcassets in Resources */,
 				52F4B8AF1EF128C400BDB55E /* Main.storyboard in Resources */,
 			);
@@ -226,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F4B8AC1EF128C400BDB55E /* ViewController.m in Sources */,
+				52F4B8BD1EF148BE00BDB55E /* SettingsView.m in Sources */,
 				52F4B8A91EF128C400BDB55E /* AppDelegate.m in Sources */,
 				52F4B8A61EF128C400BDB55E /* main.m in Sources */,
 			);

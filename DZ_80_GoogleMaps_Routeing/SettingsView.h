@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @interface SettingsView : UIView
 
+@property (weak, nonatomic) IBOutlet UITextField *ibStartPointField;
+@property (weak, nonatomic) IBOutlet UITextField *ibFinishPointField;
+@property (weak, nonatomic) IBOutlet UIButton *ibMyLOcationButton;
+@property (nonatomic, strong) void (^RouteButtonBlock)(SettingsView *view);
 @end
